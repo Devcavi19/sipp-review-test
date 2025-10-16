@@ -1,0 +1,306 @@
+[
+  {
+    "id": 1,
+    "question": "Which professional code emphasizes contributing to society and human well-being, avoiding harm, and being honest and trustworthy in computing work?",
+    "choices": ["ISO 27001 Controls", "ACM Code of Ethics", "PMI Code of Conduct", "ITIL Service Ethics"],
+    "answer": "ACM Code of Ethics",
+    "explanation": "The ACM Code of Ethics highlights societal benefit, avoidance of harm, honesty, and respect for privacy and confidentiality.",
+    "topic": "Codes—ACM Ethics"
+  },
+  {
+    "id": 2,
+    "question": "Which software engineering code includes principles such as acting in the public interest, maintaining integrity, and ensuring quality of products and processes?",
+    "choices": ["COBIT Ethics Charter", "IEEE-CS/ACM SE Code", "NIST Cyber Ethics Guide", "GDPR Ethics Code"],
+    "answer": "IEEE-CS/ACM SE Code",
+    "explanation": "The IEEE-CS/ACM Software Engineering Code stresses public interest, product quality, professional judgment, and integrity.",
+    "topic": "Codes—SE Ethics"
+  },
+  {
+    "id": 3,
+    "question": "Which best describes conflict of interest for IT workers?",
+    "choices": ["Refusing a lawful order", "Personal interests improperly influence professional judgment", "Sharing public documentation", "Declaring a gift to compliance"],
+    "answer": "Personal interests improperly influence professional judgment",
+    "explanation": "A conflict of interest exists when personal gain or relationships can bias professional decisions or undermine objectivity.",
+    "topic": "Conflicts—Definition"
+  },
+  {
+    "id": 4,
+    "question": "Accepting cash or favors to influence a professional decision is best categorized as which unethical act?",
+    "choices": ["Whistleblowing", "Bribery", "Due diligence", "Gift disclosure"],
+    "answer": "Bribery",
+    "explanation": "Bribery is exchanging value to sway decisions and violates integrity and fairness standards.",
+    "topic": "Misconduct—Bribery"
+  },
+  {
+    "id": 5,
+    "question": "Information that derives independent economic value from not being generally known and is subject to reasonable secrecy measures is a:",
+    "choices": ["Patent", "Trade secret", "Copyright", "Trademark"],
+    "answer": "Trade secret",
+    "explanation": "Trade secrets are protected confidential business information that confers competitive advantage and requires safeguarding.",
+    "topic": "IP—Trade Secrets"
+  },
+  {
+    "id": 6,
+    "question": "A contract clause that obligates an employee or vendor to keep proprietary information confidential is a(n):",
+    "choices": ["SLA", "NDA", "MOU", "SOW"],
+    "answer": "NDA",
+    "explanation": "Non-disclosure agreements formalize confidentiality duties for sensitive information.",
+    "topic": "Confidentiality—NDA"
+  },
+  {
+    "id": 7,
+    "question": "Reporting organizational wrongdoing to authorities or oversight bodies after internal channels fail describes:",
+    "choices": ["Escalation protocol", "Whistleblowing", "Mediation", "Grievance filing"],
+    "answer": "Whistleblowing",
+    "explanation": "Whistleblowing exposes illegal or unethical acts, often requiring protections against retaliation.",
+    "topic": "Reporting—Whistleblowing"
+  },
+  {
+    "id": 8,
+    "question": "Which action best upholds the duty of care for IT professionals handling user data?",
+    "choices": ["Collect maximum data for flexibility", "Store data without encryption", "Minimize data and secure it appropriately", "Share raw logs for analytics partners"],
+    "answer": "Minimize data and secure it appropriately",
+    "explanation": "Duty of care entails data minimization, proper security controls, and adherence to privacy and confidentiality.",
+    "topic": "Data—Duty of Care"
+  },
+  {
+    "id": 9,
+    "question": "Unauthorized copying or sharing of licensed software without permission is known as:",
+    "choices": ["Fair use", "Software piracy", "Open-source compliance", "Archival backup"],
+    "answer": "Software piracy",
+    "explanation": "Software piracy violates licensing and intellectual property obligations.",
+    "topic": "IP—Piracy"
+  },
+  {
+    "id": 10,
+    "question": "The primary purpose of an Acceptable Use Policy (AUP) for IT users is to:",
+    "choices": ["Set hardware depreciation", "Define permissible system and network usage", "Price internal services", "Replace security training"],
+    "answer": "Define permissible system and network usage",
+    "explanation": "AUPs clarify allowed and prohibited behaviors to reduce risk and support compliance.",
+    "topic": "Policies—AUP"
+  },
+  {
+    "id": 11,
+    "question": "Notifying employees that web, email, and device activity may be monitored primarily addresses which ethical balance?",
+    "choices": ["Performance vs. cost", "Privacy vs. security", "Autonomy vs. usability", "Ownership vs. access"],
+    "answer": "Privacy vs. security",
+    "explanation": "Transparent monitoring notices balance legitimate security needs with respect for user privacy.",
+    "topic": "Monitoring—Privacy"
+  },
+  {
+    "id": 12,
+    "question": "Allowing employees to use personal devices for work (BYOD) raises which primary risk if unmanaged?",
+    "choices": ["Reduced hardware costs", "Data leakage and loss", "Increased printing", "Slow software updates"],
+    "answer": "Data leakage and loss",
+    "explanation": "BYOD without controls can expose sensitive data via loss, malware, or unvetted apps.",
+    "topic": "Devices—BYOD Risk"
+  },
+  {
+    "id": 13,
+    "question": "Which practice most effectively prevents credential compromise for IT users?",
+    "choices": ["Reusing strong passwords", "Sharing passwords with managers", "Using MFA and unique passwords", "Writing passwords on desks"],
+    "answer": "Using MFA and unique passwords",
+    "explanation": "Multi-factor authentication and unique passwords reduce the impact of phishing and breaches.",
+    "topic": "Access—Authentication"
+  },
+  {
+    "id": 14,
+    "question": "Training users to recognize phishing, pretexting, and baiting primarily addresses:",
+    "choices": ["Social engineering risk", "Hardware failure", "Licensing audits", "Data retention"],
+    "answer": "Social engineering risk",
+    "explanation": "Social engineering awareness equips users to detect and report manipulation attempts.",
+    "topic": "Security—Awareness"
+  },
+  {
+    "id": 15,
+    "question": "Classifying data as public, internal, confidential, or restricted helps ensure:",
+    "choices": ["Faster networks", "Tailored protection and handling", "Lower storage costs", "Unlimited sharing"],
+    "answer": "Tailored protection and handling",
+    "explanation": "Data classification aligns safeguards and access with sensitivity and business impact.",
+    "topic": "Data—Classification"
+  },
+  {
+    "id": 16,
+    "question": "Granting users only the access necessary to perform their job embodies which principle?",
+    "choices": ["Need to share", "Least privilege", "Open access", "Rotating credentials"],
+    "answer": "Least privilege",
+    "explanation": "Least privilege minimizes risk by restricting access to essential permissions only.",
+    "topic": "Access—Least Privilege"
+  },
+  {
+    "id": 17,
+    "question": "Promptly reporting suspected security incidents by users supports which organizational control objective?",
+    "choices": ["Capacity planning", "Timely detection and response", "Vendor consolidation", "Depreciation schedules"],
+    "answer": "Timely detection and response",
+    "explanation": "Early reporting enables containment and limits damage from security events.",
+    "topic": "Incidents—Reporting"
+  },
+  {
+    "id": 18,
+    "question": "Favoring a vendor in exchange for personal benefit during procurement is best described as:",
+    "choices": ["Transparent bidding", "Kickback", "Benchmarking", "Competitive tender"],
+    "answer": "Kickback",
+    "explanation": "Kickbacks corrupt selection processes and breach fairness and integrity.",
+    "topic": "Procurement—Integrity"
+  },
+  {
+    "id": 19,
+    "question": "Using open-source software in enterprise products requires attention to which ethical-legal duty?",
+    "choices": ["Ignoring license terms", "Complying with license obligations", "Hiding attribution", "Preventing audits"],
+    "answer": "Complying with license obligations",
+    "explanation": "Ethical use requires respecting licenses, attribution, and distribution requirements.",
+    "topic": "IP—Open Source"
+  },
+  {
+    "id": 20,
+    "question": "Storing customer records in a public cloud without encryption most directly violates which obligation?",
+    "choices": ["Availability", "Confidentiality", "Portability", "Interoperability"],
+    "answer": "Confidentiality",
+    "explanation": "Confidentiality requires safeguarding data from unauthorized access through encryption and controls.",
+    "topic": "Data—Confidentiality"
+  },
+  {
+    "id": 21,
+    "question": "Integrating privacy protections into systems from the outset reflects:",
+    "choices": ["Privacy bolt-on", "Privacy by design", "Privacy waiver", "Privacy outsourcing"],
+    "answer": "Privacy by design",
+    "explanation": "Privacy by design embeds controls, minimization, and user rights throughout the lifecycle.",
+    "topic": "Privacy—By Design"
+  },
+  {
+    "id": 22,
+    "question": "Collecting only data strictly necessary for a stated purpose and no more is called:",
+    "choices": ["Data enrichment", "Data minimization", "Data warehousing", "Data replication"],
+    "answer": "Data minimization",
+    "explanation": "Data minimization reduces risk, exposure, and ethical concerns by limiting collection.",
+    "topic": "Privacy—Minimization"
+  },
+  {
+    "id": 23,
+    "question": "Presenting clear notices and obtaining agreement before collecting personal data supports which ethical requirement?",
+    "choices": ["Implied consent", "Informed consent", "Silent opt-in", "Dark patterns"],
+    "answer": "Informed consent",
+    "explanation": "Informed consent ensures users understand collection purposes, scope, and choices.",
+    "topic": "Privacy—Consent"
+  },
+  {
+    "id": 24,
+    "question": "Maintaining logs of access to sensitive records primarily enables:",
+    "choices": ["Price optimization", "Accountability and auditing", "Marketing personalization", "Storage defragmentation"],
+    "answer": "Accountability and auditing",
+    "explanation": "Audit logs create traceability and support detection of misuse or breaches.",
+    "topic": "Governance—Auditability"
+  },
+  {
+    "id": 25,
+    "question": "Using company email and chat to harass colleagues violates which policy area most directly?",
+    "choices": ["Social media branding", "Anti-harassment and AUP", "Expense reporting", "Remote work"],
+    "answer": "Anti-harassment and AUP",
+    "explanation": "Harassment breaches conduct standards and acceptable use of communication systems.",
+    "topic": "Conduct—Harassment"
+  },
+  {
+    "id": 26,
+    "question": "Excessive non-work web use during work hours using corporate systems is commonly termed:",
+    "choices": ["Cyberloafing", "Timeboxing", "Overtime offset", "Workstreaming"],
+    "answer": "Cyberloafing",
+    "explanation": "Cyberloafing reduces productivity and may violate AUPs.",
+    "topic": "Usage—Cyberloafing"
+  },
+  {
+    "id": 27,
+    "question": "Copying a colleague’s code into a deliverable without attribution is best described as:",
+    "choices": ["Refactoring", "Plagiarism", "Code review", "Fair use"],
+    "answer": "Plagiarism",
+    "explanation": "Plagiarism misrepresents others’ work as one’s own and violates professional integrity.",
+    "topic": "Integrity—Plagiarism"
+  },
+  {
+    "id": 28,
+    "question": "Which user practice most reduces accidental data exposure via email?",
+    "choices": ["Auto-complete always on", "Verifying recipients and using encryption", "Sending zip files without passwords", "CC’ing all managers"],
+    "answer": "Verifying recipients and using encryption",
+    "explanation": "Double-checking recipients and encrypting sensitive attachments reduce leakage.",
+    "topic": "Data—Handling"
+  },
+  {
+    "id": 29,
+    "question": "When engaging clients, promising features that cannot be delivered violates which ethical norm most directly?",
+    "choices": ["Loyalty", "Honesty and truthful communication", "Confidentiality", "Stewardship"],
+    "answer": "Honesty and truthful communication",
+    "explanation": "Honesty requires accurate representations of capabilities, timelines, and risks.",
+    "topic": "Clients—Truthfulness"
+  },
+  {
+    "id": 30,
+    "question": "Altering test results to pass a failing system breaches which code tenet?",
+    "choices": ["Avoid harm and be honest", "Maintain availability", "Reduce cost", "Enable reuse"],
+    "answer": "Avoid harm and be honest",
+    "explanation": "Misrepresentation risks harm to users and violates honesty and public interest.",
+    "topic": "Quality—Integrity"
+  },
+  {
+    "id": 31,
+    "question": "Failing to disclose a prior employment relationship with a bidding vendor primarily violates:",
+    "choices": ["Confidentiality", "Conflict of interest disclosure", "Attribution", "Accessibility"],
+    "answer": "Conflict of interest disclosure",
+    "explanation": "Disclosing conflicts preserves objectivity and decision fairness.",
+    "topic": "Conflicts—Disclosure"
+  },
+  {
+    "id": 32,
+    "question": "Which user step best protects confidentiality when working remotely?",
+    "choices": ["Public Wi‑Fi without VPN", "Screen locks and VPN on", "Sharing devices with family", "Disabling updates"],
+    "answer": "Screen locks and VPN on",
+    "explanation": "Screen locks and VPN reduce interception and unauthorized viewing risks.",
+    "topic": "Remote—Safeguards"
+  },
+  {
+    "id": 33,
+    "question": "Encrypting sensitive files at rest primarily protects against:",
+    "choices": ["Hardware wear", "Unauthorized access if storage is compromised", "Network congestion", "Vendor lock-in"],
+    "answer": "Unauthorized access if storage is compromised",
+    "explanation": "Encryption maintains confidentiality despite device loss or system breach.",
+    "topic": "Crypto—At Rest"
+  },
+  {
+    "id": 34,
+    "question": "Regular backups and tested restores mainly address which ethical-operational duty to stakeholders?",
+    "choices": ["Confidentiality", "Availability and resilience", "Attribution", "Minimization"],
+    "answer": "Availability and resilience",
+    "explanation": "Ensuring service and data availability fulfills reliability responsibilities to users.",
+    "topic": "Continuity—Backups"
+  },
+  {
+    "id": 35,
+    "question": "When facing an ethical dilemma, which first action aligns with formal decision frameworks for IT workers?",
+    "choices": ["Implement the fastest fix", "Identify stakeholders and gather facts", "Announce a solution publicly", "Ignore minor impacts"],
+    "answer": "Identify stakeholders and gather facts",
+    "explanation": "Ethical analysis begins by clarifying the issue, facts, and affected parties.",
+    "topic": "Decisions—First Step"
+  },
+  {
+    "id": 36,
+    "question": "Communicating service limitations and risks in SLAs primarily supports which ethical value with clients?",
+    "choices": ["Secrecy", "Transparency and honesty", "Exclusivity", "Expediency"],
+    "answer": "Transparency and honesty",
+    "explanation": "Clear SLAs uphold informed consent and realistic expectations.",
+    "topic": "Clients—Transparency"
+  },
+  {
+    "id": 37,
+    "question": "Altering production logs to hide an outage most directly violates which duty?",
+    "choices": ["Stewardship and accountability", "Minimization", "Access control", "Availability"],
+    "answer": "Stewardship and accountability",
+    "explanation": "Accountability requires accurate records and truthful reporting of incidents.",
+    "topic": "Governance—Accountability"
+  },
+  {
+    "id": 38,
+    "question": "Applying security patches promptly to user devices primarily supports which objective?",
+    "choices": ["Profit maximization", "Risk reduction and protection", "User convenience", "License enforcement"],
+    "answer": "Risk reduction and protection",
+    "explanation": "Timely patching mitigates known vulnerabilities and protects users and data.",
+    "topic": "Security—Patching"
+  }
+]

@@ -1,0 +1,290 @@
+[
+  {
+    "id": 1,
+    "question": "Which term refers to the right of individuals to control their personal information and to be free from unauthorized access, collection, or surveillance?",
+    "choices": ["Data Protection", "Privacy", "Confidentiality", "Anonymity"],
+    "answer": "Privacy",
+    "explanation": "Privacy is the right to control personal information and be free from unauthorized access or surveillance.",
+    "topic": "Definitions—Privacy"
+  },
+  {
+    "id": 2,
+    "question": "What is the legal and technical process of safeguarding personal data against loss, alteration, or unauthorized access?",
+    "choices": ["Data Breach", "Data Protection", "Encryption", "Surveillance"],
+    "answer": "Data Protection",
+    "explanation": "Data protection involves legal and technical measures to safeguard personal data from unauthorized access or misuse.",
+    "topic": "Definitions—Data Protection"
+  },
+  {
+    "id": 3,
+    "question": "Which incident involves sensitive or protected data being accessed, stolen, or disclosed without authorization?",
+    "choices": ["Data Breach", "Identity Theft", "Phishing", "Anonymization"],
+    "answer": "Data Breach",
+    "explanation": "A data breach is an incident where sensitive data is accessed or disclosed without authorization.",
+    "topic": "Threats—Data Breach"
+  },
+  {
+    "id": 4,
+    "question": "What is the crime of using another person's personal information to commit fraud or other crimes?",
+    "choices": ["Phishing", "Identity Theft", "Spyware", "Defamation"],
+    "answer": "Identity Theft",
+    "explanation": "Identity theft is the crime of using someone else's personal information for fraudulent purposes.",
+    "topic": "Threats—Identity Theft"
+  },
+  {
+    "id": 5,
+    "question": "Which law in the Philippines is designed to protect individual personal information in information and communications systems?",
+    "choices": ["Cybercrime Prevention Act", "Data Privacy Act", "Bill of Rights", "Freedom of Information Act"],
+    "answer": "Data Privacy Act",
+    "explanation": "The Data Privacy Act of 2012 (RA 10173) protects personal information in the Philippines.",
+    "topic": "Laws—Data Privacy Act"
+  },
+  {
+    "id": 6,
+    "question": "Who is the independent body mandated to administer and enforce the Data Privacy Act in the Philippines?",
+    "choices": ["Department of Justice", "National Privacy Commission", "Supreme Court", "Department of Information and Communications Technology"],
+    "answer": "National Privacy Commission",
+    "explanation": "The National Privacy Commission (NPC) enforces the Data Privacy Act in the Philippines.",
+    "topic": "Institutions—National Privacy Commission"
+  },
+  {
+    "id": 7,
+    "question": "Which international framework provides guidelines for protecting personal data and privacy in cross-border data flows?",
+    "choices": ["NIST Framework", "OECD Privacy Guidelines", "ISO/IEC 27001", "Fair Information Practices"],
+    "answer": "OECD Privacy Guidelines",
+    "explanation": "The OECD Privacy Guidelines set international standards for data protection and privacy.",
+    "topic": "Frameworks—OECD Privacy Guidelines"
+  },
+  {
+    "id": 8,
+    "question": "Which principle requires that users be informed about data collection and given options on how their data is used?",
+    "choices": ["Notice/Awareness and Choice/Consent", "Access/Participation", "Integrity/Security", "Enforcement/Redress"],
+    "answer": "Notice/Awareness and Choice/Consent",
+    "explanation": "Notice/Awareness and Choice/Consent are key Fair Information Practices for responsible data management.",
+    "topic": "Principles—Fair Information Practices"
+  },
+  {
+    "id": 9,
+    "question": "What is the right of individuals to have personal data removed from internet search results or databases under certain circumstances?",
+    "choices": ["Right to be Forgotten", "Right to Information", "Right to Privacy", "Right to Access"],
+    "answer": "Right to be Forgotten",
+    "explanation": "The right to be forgotten allows individuals to request removal of personal data from online sources.",
+    "topic": "Rights—Right to be Forgotten"
+  },
+  {
+    "id": 10,
+    "question": "Which term refers to the ability to use or access online services without revealing one's identity?",
+    "choices": ["Confidentiality", "Anonymity", "Encryption", "Pseudonymization"],
+    "answer": "Anonymity",
+    "explanation": "Anonymity allows users to access services without disclosing their identity.",
+    "topic": "Definitions—Anonymity"
+  },
+  {
+    "id": 11,
+    "question": "What is the process of removing personally identifiable information from datasets to protect individual privacy?",
+    "choices": ["Encryption", "Anonymization", "Pseudonymization", "Data Retention"],
+    "answer": "Anonymization",
+    "explanation": "Anonymization removes identifying information to protect privacy in datasets.",
+    "topic": "Techniques—Anonymization"
+  },
+  {
+    "id": 12,
+    "question": "Which law in the Philippines penalizes cybercrimes such as data interference, identity theft, and online libel?",
+    "choices": ["Data Privacy Act", "Cybercrime Prevention Act", "Bill of Rights", "Freedom of Information Act"],
+    "answer": "Cybercrime Prevention Act",
+    "explanation": "The Cybercrime Prevention Act of 2012 (RA 10175) penalizes various cybercrimes in the Philippines.",
+    "topic": "Laws—Cybercrime Prevention Act"
+  },
+  {
+    "id": 13,
+    "question": "Which section of the 1987 Philippine Constitution guarantees the right to privacy of communication and correspondence?",
+    "choices": ["Article III, Section 3", "Article III, Section 4", "Article II, Section 2", "Article IV, Section 1"],
+    "answer": "Article III, Section 3",
+    "explanation": "Article III, Section 3 of the Philippine Constitution protects privacy of communication and correspondence.",
+    "topic": "Laws—Bill of Rights"
+  },
+  {
+    "id": 14,
+    "question": "Which section of the 1987 Philippine Constitution protects freedom of speech, expression, and the press?",
+    "choices": ["Article III, Section 3", "Article III, Section 4", "Article II, Section 2", "Article IV, Section 1"],
+    "answer": "Article III, Section 4",
+    "explanation": "Article III, Section 4 guarantees freedom of speech, expression, and the press in the Philippines.",
+    "topic": "Laws—Bill of Rights"
+  },
+  {
+    "id": 15,
+    "question": "What is the right of individuals to express opinions, ideas, or beliefs without fear of censorship or punishment?",
+    "choices": ["Freedom of Information", "Freedom of Expression", "Freedom of Association", "Freedom of Assembly"],
+    "answer": "Freedom of Expression",
+    "explanation": "Freedom of expression is the right to express opinions and ideas without censorship or punishment.",
+    "topic": "Rights—Freedom of Expression"
+  },
+  {
+    "id": 16,
+    "question": "Which term refers to the suppression or control of speech, public communication, or information that may be considered objectionable or harmful?",
+    "choices": ["Censorship", "Self-censorship", "Prior Restraint", "Red-Tagging"],
+    "answer": "Censorship",
+    "explanation": "Censorship is the suppression or control of speech or information deemed objectionable.",
+    "topic": "Threats—Censorship"
+  },
+  {
+    "id": 17,
+    "question": "What is the government action that prevents speech or expression before it occurs, violating freedom of expression?",
+    "choices": ["Censorship", "Prior Restraint", "Self-censorship", "Red-Tagging"],
+    "answer": "Prior Restraint",
+    "explanation": "Prior restraint is government action that prevents speech before it happens, violating freedom of expression.",
+    "topic": "Threats—Prior Restraint"
+  },
+  {
+    "id": 18,
+    "question": "Which law defines and penalizes online libel in the Philippines?",
+    "choices": ["Data Privacy Act", "Cybercrime Prevention Act", "Bill of Rights", "Freedom of Information Act"],
+    "answer": "Cybercrime Prevention Act",
+    "explanation": "Online libel is penalized under the Cybercrime Prevention Act of 2012 (RA 10175).",
+    "topic": "Laws—Online Libel"
+  },
+  {
+    "id": 19,
+    "question": "What is the practice of labeling individuals or groups as communists, terrorists, or rebels without evidence, often to silence criticism?",
+    "choices": ["Red-Tagging", "Censorship", "Defamation", "Cyberbullying"],
+    "answer": "Red-Tagging",
+    "explanation": "Red-tagging labels people as threats without evidence, often to silence dissent.",
+    "topic": "Threats—Red-Tagging"
+  },
+  {
+    "id": 20,
+    "question": "Which right allows citizens to request access to official documents and data from government agencies?",
+    "choices": ["Right to be Forgotten", "Freedom of Information", "Right to Privacy", "Right to Access"],
+    "answer": "Freedom of Information",
+    "explanation": "Freedom of Information allows citizens to request access to government documents and data.",
+    "topic": "Rights—Freedom of Information"
+  },
+  {
+    "id": 21,
+    "question": "Which term refers to the record of all online activities and data a person leaves behind while using the internet?",
+    "choices": ["Digital Footprint", "Cookies", "Consumer Profiling", "Data Retention"],
+    "answer": "Digital Footprint",
+    "explanation": "A digital footprint is the record of all online activities and data left by a user.",
+    "topic": "Definitions—Digital Footprint"
+  },
+  {
+    "id": 22,
+    "question": "What is the process of obtaining permission from users after informing them how their data will be collected, used, and shared?",
+    "choices": ["Informed Consent", "Data Minimization", "Anonymization", "Encryption"],
+    "answer": "Informed Consent",
+    "explanation": "Informed consent means users are told how data is used and give permission before collection.",
+    "topic": "Principles—Informed Consent"
+  },
+  {
+    "id": 23,
+    "question": "Which principle means collecting only the data necessary for a specific purpose to reduce privacy risks?",
+    "choices": ["Data Retention", "Data Minimization", "Data Protection", "Data Breach"],
+    "answer": "Data Minimization",
+    "explanation": "Data minimization means collecting only what is necessary to reduce privacy risks.",
+    "topic": "Principles—Data Minimization"
+  },
+  {
+    "id": 24,
+    "question": "Which term refers to the use of technology to monitor communications, including phone tapping and email scanning?",
+    "choices": ["Surveillance", "Encryption", "Cookies", "Profiling"],
+    "answer": "Surveillance",
+    "explanation": "Surveillance is the use of technology to monitor communications and activities.",
+    "topic": "Threats—Surveillance"
+  },
+  {
+    "id": 25,
+    "question": "What is the widespread monitoring of large groups or entire populations, often raising privacy and human rights concerns?",
+    "choices": ["Mass Surveillance", "Wiretapping", "Profiling", "Cookies"],
+    "answer": "Mass Surveillance",
+    "explanation": "Mass surveillance is the widespread monitoring of populations, raising privacy concerns.",
+    "topic": "Threats—Mass Surveillance"
+  },
+  {
+    "id": 26,
+    "question": "Which right is protected by Article 12 of the Universal Declaration of Human Rights, stating no one shall be subjected to arbitrary interference with privacy?",
+    "choices": ["Right to Privacy", "Right to be Forgotten", "Freedom of Expression", "Right to Information"],
+    "answer": "Right to Privacy",
+    "explanation": "Article 12 of the UDHR protects the right to privacy from arbitrary interference.",
+    "topic": "Rights—Right to Privacy"
+  },
+  {
+    "id": 27,
+    "question": "Which term refers to the legal rights protecting creations of the mind, such as software and digital media, from unauthorized use?",
+    "choices": ["Intellectual Property Rights", "Copyright", "Patent", "Trademark"],
+    "answer": "Intellectual Property Rights",
+    "explanation": "Intellectual property rights protect creations like software and digital media from unauthorized use.",
+    "topic": "Rights—Intellectual Property"
+  },
+  {
+    "id": 28,
+    "question": "What is the principle that internet service providers must treat all online data equally without discrimination or preference?",
+    "choices": ["Net Neutrality", "Data Minimization", "Encryption", "Freedom of Information"],
+    "answer": "Net Neutrality",
+    "explanation": "Net neutrality requires ISPs to treat all online data equally without discrimination.",
+    "topic": "Principles—Net Neutrality"
+  },
+  {
+    "id": 29,
+    "question": "Which term refers to the responsible and respectful use of social platforms, emphasizing truthfulness, respect, and privacy protection?",
+    "choices": ["Social Media Ethics", "Content Moderation", "Algorithmic Bias", "Digital Censorship"],
+    "answer": "Social Media Ethics",
+    "explanation": "Social media ethics is about using platforms responsibly, truthfully, and with respect for privacy.",
+    "topic": "Principles—Social Media Ethics"
+  },
+  {
+    "id": 30,
+    "question": "What is the process of monitoring and managing online content to enforce community guidelines and prevent harm?",
+    "choices": ["Content Moderation", "Algorithmic Bias", "Digital Censorship", "Surveillance"],
+    "answer": "Content Moderation",
+    "explanation": "Content moderation manages online content to enforce guidelines and prevent harm.",
+    "topic": "Practices—Content Moderation"
+  },
+  {
+    "id": 31,
+    "question": "Which term describes systematic errors in automated decision-making systems that result in unfair outcomes against certain groups?",
+    "choices": ["Algorithmic Bias", "Content Moderation", "Digital Censorship", "Profiling"],
+    "answer": "Algorithmic Bias",
+    "explanation": "Algorithmic bias refers to unfair outcomes in automated systems due to systematic errors.",
+    "topic": "Threats—Algorithmic Bias"
+  },
+  {
+    "id": 32,
+    "question": "What is the right of people to gather peacefully for lawful and expressive purposes?",
+    "choices": ["Freedom of Assembly", "Freedom of Association", "Freedom of Expression", "Freedom of Information"],
+    "answer": "Freedom of Assembly",
+    "explanation": "Freedom of assembly is the right to gather peacefully for lawful and expressive purposes.",
+    "topic": "Rights—Freedom of Assembly"
+  },
+  {
+    "id": 33,
+    "question": "Which term refers to the use of technology or digital platforms to harass, intimidate, or harm another person?",
+    "choices": ["Cyberbullying", "Trolling", "Defamation", "Red-Tagging"],
+    "answer": "Cyberbullying",
+    "explanation": "Cyberbullying is harassment or intimidation using digital platforms.",
+    "topic": "Threats—Cyberbullying"
+  },
+  {
+    "id": 34,
+    "question": "What is the repeated use of digital means to harass or monitor another individual?",
+    "choices": ["Cyberstalking", "Cyberbullying", "Trolling", "Defamation"],
+    "answer": "Cyberstalking",
+    "explanation": "Cyberstalking is repeated harassment or monitoring using digital means.",
+    "topic": "Threats—Cyberstalking"
+  },
+  {
+    "id": 35,
+    "question": "Which principle means privacy and data protection are built into the system or process from the start?",
+    "choices": ["Privacy by Design", "Data Minimization", "Encryption", "Informed Consent"],
+    "answer": "Privacy by Design",
+    "explanation": "Privacy by design means integrating privacy and data protection from the beginning of a project.",
+    "topic": "Principles—Privacy by Design"
+  },
+  {
+    "id": 36,
+    "question": "What is the tool used to identify and minimize privacy risks in new projects or technologies?",
+    "choices": ["Privacy Impact Assessment", "Data Retention", "Encryption", "Cookies"],
+    "answer": "Privacy Impact Assessment",
+    "explanation": "A privacy impact assessment identifies and minimizes privacy risks in new projects or technologies.",
+    "topic": "Practices—Privacy Impact Assessment"
+  }
+]

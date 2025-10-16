@@ -1,0 +1,290 @@
+[
+  {
+    "id": 1,
+    "question": "Which term refers to the practice of protecting systems, networks, and data from digital attacks while ensuring confidentiality, integrity, and availability?",
+    "choices": ["Cybercrime", "Cyberattack", "Cybersecurity", "Cyberethics"],
+    "answer": "Cybersecurity",
+    "explanation": "Cybersecurity protects systems and information from attacks and ensures the CIA triad of confidentiality, integrity, and availability.",
+    "topic": "Definitions—Cybersecurity"
+  },
+  {
+    "id": 2,
+    "question": "Which term describes a deliberate attempt to breach an information system to steal, alter, or destroy data?",
+    "choices": ["Cybercrime", "Cyberattack", "Vulnerability", "Penetration test"],
+    "answer": "Cyberattack",
+    "explanation": "A cyberattack is a deliberate attempt to compromise systems and data for theft, alteration, or destruction.",
+    "topic": "Definitions—Cyberattack"
+  },
+  {
+    "id": 3,
+    "question": "Which concept of the CIA triad ensures information is accessible only to authorized individuals?",
+    "choices": ["Integrity", "Availability", "Confidentiality", "Non-repudiation"],
+    "answer": "Confidentiality",
+    "explanation": "Confidentiality limits access to information to authorized parties only.",
+    "topic": "Principles—CIA Triad"
+  },
+  {
+    "id": 4,
+    "question": "Which attack secretly intercepts and relays communication between two parties?",
+    "choices": ["SQL injection", "Man-in-the-Middle", "Cross-site scripting", "Spoofing"],
+    "answer": "Man-in-the-Middle",
+    "explanation": "A MitM attack places the attacker between communicating parties to intercept and possibly alter data.",
+    "topic": "Network attacks—MitM"
+  },
+  {
+    "id": 5,
+    "question": "Which malware self-replicates across networks without user action?",
+    "choices": ["Virus", "Worm", "Trojan horse", "Spyware"],
+    "answer": "Worm",
+    "explanation": "Worms are self-replicating malware that spread without user interaction.",
+    "topic": "Malware—Worms"
+  },
+  {
+    "id": 6,
+    "question": "A user on public Wi‑Fi later finds that their session was hijacked and credentials stolen; which attack most likely occurred?",
+    "choices": ["DDoS", "Man-in-the-Middle", "CSRF", "Brute force"],
+    "answer": "Man-in-the-Middle",
+    "explanation": "On unsecured networks, attackers can intercept and relay traffic as a MitM to steal credentials.",
+    "topic": "Case—MitM on public Wi‑Fi"
+  },
+  {
+    "id": 7,
+    "question": "Which term refers to a targeted phishing campaign directed at a specific person or organization?",
+    "choices": ["Vishing", "Smishing", "Spear phishing", "Pretexting"],
+    "answer": "Spear phishing",
+    "explanation": "Spear phishing is a targeted phishing attack aimed at particular individuals or organizations.",
+    "topic": "Social engineering—Phishing"
+  },
+  {
+    "id": 8,
+    "question": "Which coordinated attack floods a target from many compromised systems?",
+    "choices": ["DoS", "DDoS", "Spoofing", "Baiting"],
+    "answer": "DDoS",
+    "explanation": "A DDoS attack uses multiple systems—often a botnet—to overwhelm a target’s resources.",
+    "topic": "Network attacks—DDoS"
+  },
+  {
+    "id": 9,
+    "question": "A finance officer receives a convincingly personalized email urging an urgent wire transfer; which threat is this?",
+    "choices": ["Generic phishing", "Spear phishing", "Vishing", "Smishing"],
+    "answer": "Spear phishing",
+    "explanation": "Personalized targeting of a specific employee fits spear phishing.",
+    "topic": "Case—Social engineering"
+  },
+  {
+    "id": 10,
+    "question": "Which web attack injects malicious SQL into inputs to manipulate database queries?",
+    "choices": ["XSS", "CSRF", "SQL injection", "Spoofing"],
+    "answer": "SQL injection",
+    "explanation": "SQL injection inserts malicious SQL into application inputs to access or modify data.",
+    "topic": "Web attacks—SQLi"
+  },
+  {
+    "id": 11,
+    "question": "Which control monitors and controls network traffic based on security rules?",
+    "choices": ["IDS", "IPS", "Firewall", "VPN"],
+    "answer": "Firewall",
+    "explanation": "A firewall enforces traffic rules to allow or block connections.",
+    "topic": "Controls—Firewall"
+  },
+  {
+    "id": 12,
+    "question": "Which security function actively blocks detected malicious activity in real time?",
+    "choices": ["IDS", "IPS", "Antivirus", "SIEM"],
+    "answer": "IPS",
+    "explanation": "An intrusion prevention system (IPS) prevents or blocks attacks once detected.",
+    "topic": "Controls—IPS"
+  },
+  {
+    "id": 13,
+    "question": "After discovering suspicious lateral movement, a team follows a documented, structured approach to contain, eradicate, and recover; what is this plan called?",
+    "choices": ["Vulnerability assessment", "Incident Response Plan", "Business Continuity Plan", "Disaster Recovery Plan"],
+    "answer": "Incident Response Plan",
+    "explanation": "An IRP is the documented approach for handling cybersecurity incidents.",
+    "topic": "Case—Incident response"
+  },
+  {
+    "id": 14,
+    "question": "Which principle dictates users should have only the minimum access needed to do their job?",
+    "choices": ["Zero trust", "Least privilege", "Separation of duties", "Defense in depth"],
+    "answer": "Least privilege",
+    "explanation": "Least privilege limits user permissions to only what is required for tasks.",
+    "topic": "Principles—Access control"
+  },
+  {
+    "id": 15,
+    "question": "Which model assumes no user or device is trustworthy by default and requires continuous verification?",
+    "choices": ["Zero‑trust security model", "Perimeter security model", "Role-based model", "Discretionary model"],
+    "answer": "Zero‑trust security model",
+    "explanation": "Zero trust treats every access attempt as untrusted without ongoing verification.",
+    "topic": "Models—Zero trust"
+  },
+  {
+    "id": 16,
+    "question": "Which term ensures a sender cannot deny having sent a message or transaction?",
+    "choices": ["Integrity", "Non-repudiation", "Authentication", "Authorization"],
+    "answer": "Non-repudiation",
+    "explanation": "Non-repudiation provides proof of origin and delivery to prevent denial.",
+    "topic": "Principles—Assurance"
+  },
+  {
+    "id": 17,
+    "question": "A company’s website is overwhelmed by traffic from many infected hosts until it becomes unavailable; what is this?",
+    "choices": ["Botnet", "DDoS attack", "DoS attack", "Spoofing"],
+    "answer": "DDoS attack",
+    "explanation": "A DDoS uses many systems, often via a botnet, to disrupt availability.",
+    "topic": "Case—Availability attack"
+  },
+  {
+    "id": 18,
+    "question": "Which attack tricks users into performing unwanted actions on a site where they are authenticated?",
+    "choices": ["XSS", "CSRF", "SQLi", "Pretexting"],
+    "answer": "CSRF",
+    "explanation": "CSRF exploits the trust a site has in a user’s browser to trigger unintended actions.",
+    "topic": "Web attacks—CSRF"
+  },
+  {
+    "id": 19,
+    "question": "Which malware encrypts a victim’s data and demands payment to restore access?",
+    "choices": ["Spyware", "Adware", "Ransomware", "Wiper"],
+    "answer": "Ransomware",
+    "explanation": "Ransomware locks or encrypts data and extorts payment for decryption.",
+    "topic": "Malware—Ransomware"
+  },
+  {
+    "id": 20,
+    "question": "A supplier’s software update delivers a hidden backdoor that compromises customers; what type of attack is this?",
+    "choices": ["Insider threat", "Supply chain attack", "Rogue software", "Rootkit"],
+    "answer": "Supply chain attack",
+    "explanation": "A supply chain attack infiltrates via third‑party vendors or updates.",
+    "topic": "Case—Supply chain compromise"
+  },
+  {
+    "id": 21,
+    "question": "Which network of infected computers is remotely controlled to perform coordinated attacks?",
+    "choices": ["Rootkit", "Botnet", "Worm", "Zombie script"],
+    "answer": "Botnet",
+    "explanation": "A botnet is a set of remotely controlled infected machines used for attacks.",
+    "topic": "Threats—Botnets"
+  },
+  {
+    "id": 22,
+    "question": "Which describes a hidden method for bypassing normal authentication to gain access?",
+    "choices": ["Payload", "Backdoor", "Logic bomb", "Keylogger"],
+    "answer": "Backdoor",
+    "explanation": "A backdoor enables unauthorized access by circumventing standard authentication.",
+    "topic": "Malware—Backdoor"
+  },
+  {
+    "id": 23,
+    "question": "Which best describes an Advanced Encryption Standard used widely for data confidentiality?",
+    "choices": ["DES", "AES", "RSA", "MD5"],
+    "answer": "AES",
+    "explanation": "AES is the widely used standard for securing data confidentiality.",
+    "topic": "Cryptography—AES"
+  },
+  {
+    "id": 24,
+    "question": "During an investigation, keystroke logs reveal stolen passwords from user devices; which tool likely captured them?",
+    "choices": ["Keylogger", "Rootkit", "Worm", "Adware"],
+    "answer": "Keylogger",
+    "explanation": "A keylogger records keystrokes to capture sensitive information.",
+    "topic": "Case—Credential theft"
+  },
+  {
+    "id": 25,
+    "question": "Which framework lists Identify, Protect, Detect, Respond, and Recover as core functions?",
+    "choices": ["COBIT", "NIST Framework", "ITIL", "ISO 9001"],
+    "answer": "NIST Framework",
+    "explanation": "The NIST Framework organizes cybersecurity activities into five core functions.",
+    "topic": "Frameworks—NIST CSF"
+  },
+  {
+    "id": 26,
+    "question": "Which international standard specifies requirements for an Information Security Management System?",
+    "choices": ["ISO/IEC 27001", "ISO 22301", "ISO/IEC 20000", "ISO 31000"],
+    "answer": "ISO/IEC 27001",
+    "explanation": "ISO/IEC 27001 is the ISMS standard for managing information security.",
+    "topic": "Standards—ISO/IEC 27001"
+  },
+  {
+    "id": 27,
+    "question": "A web form with weak validation is exploited to extract customer records from the database; what defense phase addresses detecting this activity in the NIST CSF?",
+    "choices": ["Identify", "Protect", "Detect", "Recover"],
+    "answer": "Detect",
+    "explanation": "The Detect function focuses on discovering cybersecurity events such as SQL injection attempts.",
+    "topic": "Case—NIST CSF application"
+  },
+  {
+    "id": 28,
+    "question": "Which practice regularly updates software to fix vulnerabilities and improve security?",
+    "choices": ["Patch management", "Vulnerability scanning", "Code signing", "Pen testing"],
+    "answer": "Patch management",
+    "explanation": "Patch management applies updates to remediate known weaknesses.",
+    "topic": "Operations—Patch management"
+  },
+  {
+    "id": 29,
+    "question": "Which process verifies a user’s identity before granting system access?",
+    "choices": ["Authorization", "Authentication", "Accounting", "Auditing"],
+    "answer": "Authentication",
+    "explanation": "Authentication confirms identity, whereas authorization grants permissions after identity is verified.",
+    "topic": "Access—Authentication"
+  },
+  {
+    "id": 30,
+    "question": "Which term refers to the unauthorized access to confidential information for political or economic advantage, typically by governments or organizations?",
+    "choices": ["Cyberterrorism", "Cyberespionage", "Cyberwarfare", "Information warfare"],
+    "answer": "Cyberespionage",
+    "explanation": "Cyberespionage targets confidential data for strategic advantage.",
+    "topic": "Threats—Cyberespionage"
+  },
+  {
+    "id": 31,
+    "question": "An employee receives a phone call from someone pretending to be IT support asking for MFA codes; which technique is being used?",
+    "choices": ["Vishing", "Smishing", "Spear phishing", "Tailgating"],
+    "answer": "Vishing",
+    "explanation": "Vishing uses voice calls to deceive users into giving sensitive information.",
+    "topic": "Case—Vishing"
+  },
+  {
+    "id": 32,
+    "question": "Which tool creates a secure, encrypted tunnel over the internet between a device and a network?",
+    "choices": ["IDS", "IPS", "VPN", "WAF"],
+    "answer": "VPN",
+    "explanation": "A VPN encrypts data in transit between endpoints for secure access.",
+    "topic": "Controls—VPN"
+  },
+  {
+    "id": 33,
+    "question": "A “free antivirus” pop‑up tricks users into installing malware that masquerades as security software; what is this called?",
+    "choices": ["Rogue software", "Rootkit", "Spyware", "Adware"],
+    "answer": "Rogue software",
+    "explanation": "Rogue software disguises itself as legitimate protection to deceive users into installing it.",
+    "topic": "Case—Deceptive software"
+  },
+  {
+    "id": 34,
+    "question": "Which practice educates employees about threats like phishing and safe online behaviors?",
+    "choices": ["Penetration testing", "Security awareness training", "Vulnerability assessment", "Code review"],
+    "answer": "Security awareness training",
+    "explanation": "Security awareness training informs users about cybersecurity risks and safe practices.",
+    "topic": "Governance—Training"
+  },
+  {
+    "id": 35,
+    "question": "Which framework manages digital certificates and encryption keys for secure communication?",
+    "choices": ["SSL/TLS", "PKI", "AES", "DES"],
+    "answer": "PKI",
+    "explanation": "Public Key Infrastructure (PKI) governs certificates and key management.",
+    "topic": "Cryptography—PKI"
+  },
+  {
+    "id": 36,
+    "question": "A user receives a text message with a link claiming 'Your bank account is locked—verify now,' leading to a fake site; what attack is this?",
+    "choices": ["Vishing", "Smishing", "Spear phishing", "Pretexting"],
+    "answer": "Smishing",
+    "explanation": "Smishing delivers phishing content via SMS/text messages to harvest credentials.",
+    "topic": "Case—Smishing"
+  }
+]

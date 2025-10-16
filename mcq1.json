@@ -1,0 +1,298 @@
+[
+  {
+    "id": 1,
+    "question": "Which term refers to the branch of philosophy that provides a framework for judging right and wrong based on principles and values?",
+    "choices": ["Morals", "Ethics", "Justice", "Virtue"],
+    "answer": "Ethics",
+    "explanation": "Ethics is the branch of philosophy concerned with moral right and wrong and guiding behavior through principles and values.",
+    "topic": "Definitions—Ethics"
+  },
+  {
+    "id": 2,
+    "question": "Personal principles that guide an individual’s decisions about right and wrong are best described as:",
+    "choices": ["Values", "Morals", "Laws", "Policies"],
+    "answer": "Morals",
+    "explanation": "Morals are personal principles or core beliefs that inform an individual’s choices about right and wrong.",
+    "topic": "Definitions—Morals"
+  },
+  {
+    "id": 3,
+    "question": "A habit that inclines people to do what is acceptable, such as fairness, generosity, and loyalty, is called:",
+    "choices": ["Justice", "Virtue", "Value system", "Duty"],
+    "answer": "Virtue",
+    "explanation": "Virtue is a habit of acceptable behavior such as fairness and generosity.",
+    "topic": "Definitions—Virtue"
+  },
+  {
+    "id": 4,
+    "question": "Which term refers to a habit of unacceptable behavior, such as vanity, greed, envy, or anger?",
+    "choices": ["Vice", "Fault", "Bias", "Defect"],
+    "answer": "Vice",
+    "explanation": "Vice is a habit of unacceptable behavior contrary to moral virtues.",
+    "topic": "Definitions—Vice"
+  },
+  {
+    "id": 5,
+    "question": "The complex scheme of moral values by which people live, distinguishing right from wrong, is the:",
+    "choices": ["Ethical code", "Value system", "Legal framework", "Cultural norm"],
+    "answer": "Value system",
+    "explanation": "A value system organizes moral values and helps individuals distinguish right from wrong.",
+    "topic": "Definitions—Value System"
+  },
+  {
+    "id": 6,
+    "question": "Ethics plays a fundamental role by guiding behavior, shaping norms, and providing a foundation for moral decision-making. This describes:",
+    "choices": ["Importance of Ethics", "Business Ethics", "Social Responsibility", "Fair Treatment"],
+    "answer": "Importance of Ethics",
+    "explanation": "Importance of ethics includes its foundational role in individual, organizational, and societal behavior.",
+    "topic": "Definitions—Importance of Ethics"
+  },
+  {
+    "id": 7,
+    "question": "Application of ethical principles and moral values to the behavior and decision-making of individuals and organizations in the business context refers to:",
+    "choices": ["Corporate Governance", "Business Ethics", "CSR", "Social Auditing"],
+    "answer": "Business Ethics",
+    "explanation": "Business ethics brings ethical principles to decisions and activities in organizations.",
+    "topic": "Definitions—Business Ethics"
+  },
+  {
+    "id": 8,
+    "question": "Being truthful in all forms of business dealings, including advertising, financial reporting, and communications is:",
+    "choices": ["Integrity and Honesty", "Transparency", "Justice", "Accountability"],
+    "answer": "Integrity and Honesty",
+    "explanation": "Integrity and honesty mean truthfulness and transparency in all business communication.",
+    "topic": "Definitions—Integrity"
+  },
+  {
+    "id": 9,
+    "question": "Treating all stakeholders—customers, employees, suppliers, and partners—fairly and equitably, ensuring non-discrimination and equal opportunities is:",
+    "choices": ["Transparency", "Fair Treatment", "Importance of Ethics", "Justice"],
+    "answer": "Fair Treatment",
+    "explanation": "Fair treatment means equitable actions for all business stakeholders.",
+    "topic": "Definitions—Fair Treatment"
+  },
+  {
+    "id": 10,
+    "question": "Openness in company operations, particularly in financial reporting that builds trust among stakeholders and prevents fraud, describes:",
+    "choices": ["Transparency", "Whistleblower Protection", "Supplier Relations", "Community Engagement"],
+    "answer": "Transparency",
+    "explanation": "Transparency refers to openness that fosters trust and accountability.",
+    "topic": "Definitions—Transparency"
+  },
+  {
+    "id": 11,
+    "question": "Considering the impact of business activities on society and acting for the welfare of the community is:",
+    "choices": ["Business Ethics", "Social Responsibility", "Transparency", "Fair Treatment"],
+    "answer": "Social Responsibility",
+    "explanation": "Social responsibility means acting in ways that positively benefit society beyond profits.",
+    "topic": "Definitions—Social Responsibility"
+  },
+  {
+    "id": 12,
+    "question": "The dedication to minimizing negative environmental impact through sustainable practices such as resource conservation and waste reduction is termed:",
+    "choices": ["Environmental Responsibility", "Social Responsibility", "Employee Rights", "Consumer Protection"],
+    "answer": "Environmental Responsibility",
+    "explanation": "Environmental responsibility prioritizes sustainability and resource conservation.",
+    "topic": "Definitions—Environmental Responsibility"
+  },
+  {
+    "id": 13,
+    "question": "The ethical obligation of businesses to ensure customer safety and well-being is:",
+    "choices": ["Consumer Protection", "Integrity and Honesty", "Supplier Relations", "Transparency"],
+    "answer": "Consumer Protection",
+    "explanation": "Consumer protection upholds the standards for safe, effective, and quality products.",
+    "topic": "Definitions—Consumer Protection"
+  },
+  {
+    "id": 14,
+    "question": "Ensuring fair wages, safety, equal opportunities, and work-life balance for workers reflects:",
+    "choices": ["Employee Rights", "Supplier Relations", "Fair Treatment", "Importance of Ethics"],
+    "answer": "Employee Rights",
+    "explanation": "Employee rights include fairness and quality of work-life for all workers.",
+    "topic": "Definitions—Employee Rights"
+  },
+  {
+    "id": 15,
+    "question": "Maintaining fair and ethical relationships with suppliers, avoiding exploitation and ensuring ethical standards in the supply chain is:",
+    "choices": ["Supplier Relations", "Transparency", "Fair Treatment", "Social Responsibility"],
+    "answer": "Supplier Relations",
+    "explanation": "Supplier relations include fairness, ethics, and respect in sourcing and procurement.",
+    "topic": "Definitions—Supplier Relations"
+  },
+  {
+    "id": 16,
+    "question": "A system of rules and processes by which companies are directed and controlled to ensure integrity, accountability, and fairness is:",
+    "choices": ["Corporate Governance", "Business Ethics", "CSR", "Social Auditing"],
+    "answer": "Corporate Governance",
+    "explanation": "Corporate governance ensures companies act ethically, fairly, and with accountability.",
+    "topic": "Definitions—Corporate Governance"
+  },
+  {
+    "id": 17,
+    "question": "Policies that safeguard employees who report unethical, illegal, or fraudulent practices within an organization from retaliation is:",
+    "choices": ["Whistleblower Protection", "Reporting Mechanisms", "Transparency", "Supplier Relations"],
+    "answer": "Whistleblower Protection",
+    "explanation": "Whistleblower protection systems shield ethical reporters from retaliation.",
+    "topic": "Definitions—Whistleblower Protection"
+  },
+  {
+    "id": 18,
+    "question": "A leadership approach emphasizing integrity, moral principles, and fairness that sets a positive example is:",
+    "choices": ["Ethical Leadership", "Corporate Governance", "Social Responsibility", "Business Ethics"],
+    "answer": "Ethical Leadership",
+    "explanation": "Ethical leadership promotes organizational culture through example and fairness.",
+    "topic": "Definitions—Ethical Leadership"
+  },
+  {
+    "id": 19,
+    "question": "A structured process for evaluating and choosing among alternatives in a manner consistent with ethical principles and organizational values describes:",
+    "choices": ["Ethical Decision-Making", "Business Ethics", "Ethical Leadership", "Governance"],
+    "answer": "Ethical Decision-Making",
+    "explanation": "Ethical decision-making ensures choices are both principled and aligned to values.",
+    "topic": "Definitions—Ethical Decision-Making"
+  },
+  {
+    "id": 20,
+    "question": "Ensuring that company operations conform to all applicable laws and regulations is:",
+    "choices": ["Legal Compliance", "Corporate Governance", "Transparency", "Ethical Decision-Making"],
+    "answer": "Legal Compliance",
+    "explanation": "Legal compliance means all operations follow the necessary laws and rules.",
+    "topic": "Definitions—Legal Compliance"
+  },
+  {
+    "id": 21,
+    "question": "Voluntarily taking responsibility for effects on society and the environment and integrating social and environmental concerns into business operations is called:",
+    "choices": ["CSR (Corporate Social Responsibility)", "Transparency", "Fair Treatment", "Governance"],
+    "answer": "CSR (Corporate Social Responsibility)",
+    "explanation": "CSR goes beyond legal duties to integrate ethics and sustainability into business.",
+    "topic": "Definitions—CSR"
+  },
+  {
+    "id": 22,
+    "question": "Operating in a way that preserves natural resources and ecosystems for future generations is:",
+    "choices": ["Sustainability", "CSR", "Environmental Responsibility", "Social Responsibility"],
+    "answer": "Sustainability",
+    "explanation": "Sustainability balances long-term environmental, social, and financial health.",
+    "topic": "Definitions—Sustainability"
+  },
+  {
+    "id": 23,
+    "question": "Steps in ethical decision-making usually begin with:",
+    "choices": ["Identifying the decision and stakeholders", "Consulting ethical frameworks", "Implementing and monitoring outcomes", "Reflecting and adapting"],
+    "answer": "Identifying the decision and stakeholders",
+    "explanation": "Ethical decision processes begin by recognizing all parties and issues involved.",
+    "topic": "Process—Decision Steps"
+  },
+  {
+    "id": 24,
+    "question": "A written set of principles and guidelines that define the expected ethical behavior and values of an organization or profession is called:",
+    "choices": ["Code of Ethics", "Performance Evaluation", "Environmental Responsibility", "Reporting Mechanisms"],
+    "answer": "Code of Ethics",
+    "explanation": "A code of ethics sets the standards for acceptable behavior and values.",
+    "topic": "Definitions—Code of Ethics"
+  },
+  {
+    "id": 25,
+    "question": "Programs aimed at raising awareness of ethical issues, guiding employees on ethical decision-making, and reinforcing the organization’s code of ethics refer to:",
+    "choices": ["Ethics Training and Education", "Reporting Mechanisms", "Supplier Relations", "Transparency"],
+    "answer": "Ethics Training and Education",
+    "explanation": "Programs train employees to recognize and respond to ethical challenges.",
+    "topic": "Definitions—Ethics Training"
+  },
+  {
+    "id": 26,
+    "question": "Anonymous or confidential channels that allow employees to report ethical violations or concerns without fear of retaliation are:",
+    "choices": ["Reporting Mechanisms", "Whistleblower Protection", "Transparency", "Supplier Relations"],
+    "answer": "Reporting Mechanisms",
+    "explanation": "Reporting mechanisms enable safe reporting of unethical conduct.",
+    "topic": "Definitions—Reporting Mechanisms"
+  },
+  {
+    "id": 27,
+    "question": "Individuals or groups designated to oversee and enforce ethical standards within an organization are termed:",
+    "choices": ["Ethics Committees or Officers", "Legal Compliance", "Supplier Relations", "Governance"],
+    "answer": "Ethics Committees or Officers",
+    "explanation": "Committees or officers ensure standards are maintained and enforced.",
+    "topic": "Definitions—Ethics Committees"
+  },
+  {
+    "id": 28,
+    "question": "A systematic guide for evaluating moral dilemmas and selecting ethical courses of action refers to:",
+    "choices": ["Ethical Decision-Making Framework", "Ethical Leadership", "Legal Compliance", "Process"],
+    "answer": "Ethical Decision-Making Framework",
+    "explanation": "Frameworks help apply consistent processes to ethical decisions.",
+    "topic": "Definitions—Decision Framework"
+  },
+  {
+    "id": 29,
+    "question": "Incorporating ethical behavior into employee assessments and rewarding those who uphold ethical values refers to:",
+    "choices": ["Performance Evaluation and Recognition", "Ethics Training", "Supplier Relations", "Reporting Mechanisms"],
+    "answer": "Performance Evaluation and Recognition",
+    "explanation": "Recognition processes reinforce and reward ethical conduct at work.",
+    "topic": "Definitions—Performance Evaluation"
+  },
+  {
+    "id": 30,
+    "question": "Regular assessments of company operations to identify potential ethical risks and areas for improvement are called:",
+    "choices": ["Ethical Audits", "Performance Evaluation", "Governance Audits", "Legal Audits"],
+    "answer": "Ethical Audits",
+    "explanation": "Ethical audits systematically review conduct and processes for risks.",
+    "topic": "Definitions—Ethical Audits"
+  },
+  {
+    "id": 31,
+    "question": "Ensuring that suppliers and business partners comply with ethical standards through audits and contracts refers to:",
+    "choices": ["Supplier and Partner Ethics", "Supplier Relations", "Transparency", "Performance Evaluation"],
+    "answer": "Supplier and Partner Ethics",
+    "explanation": "Suppliers/partners must be held to the organization’s ethical standards.",
+    "topic": "Definitions—Partner Ethics"
+  },
+  {
+    "id": 32,
+    "question": "Openly sharing ethical policies, challenges, and outcomes to maintain trust and accountability refers to:",
+    "choices": ["Transparency and Communication", "Transparency", "Reporting Mechanisms", "Whistleblower Protection"],
+    "answer": "Transparency and Communication",
+    "explanation": "Openness with stakeholders maintains credibility and public trust.",
+    "topic": "Definitions—Transparency and Communication"
+  },
+  {
+    "id": 33,
+    "question": "Evaluating decisions not only for their business outcomes but also for their ethical implications refers to:",
+    "choices": ["Including Ethical Considerations in Decision-Making", "Ethical Audits", "Ethical Leadership", "Social Responsibility"],
+    "answer": "Including Ethical Considerations in Decision-Making",
+    "explanation": "All decisions should be checked for ethical as well as business implications.",
+    "topic": "Definitions—Ethics in Decision-Making"
+  },
+  {
+    "id": 34,
+    "question": "Which ethical principle focuses on outcomes that maximize happiness for the greatest number?",
+    "choices": ["Utilitarianism", "Deontology", "Virtue Ethics", "Justice"],
+    "answer": "Utilitarianism",
+    "explanation": "Utilitarianism evaluates actions by their consequences, aiming for greatest happiness.",
+    "topic": "Ethical Principles—Utilitarianism"
+  },
+  {
+    "id": 35,
+    "question": "Emphasis on following moral rules regardless of consequences describes:",
+    "choices": ["Deontology", "Virtue Ethics", "Utilitarianism", "Justice"],
+    "answer": "Deontology",
+    "explanation": "Deontology centers on duties and rules irrespective of specific outcomes.",
+    "topic": "Ethical Principles—Deontology"
+  },
+  {
+    "id": 36,
+    "question": "Which ethical theory focuses on moral character and virtues that guide good actions?",
+    "choices": ["Virtue Ethics", "Deontology", "Utilitarianism", "Justice"],
+    "answer": "Virtue Ethics",
+    "explanation": "Virtue ethics stresses personal moral character and virtues.",
+    "topic": "Ethical Principles—Virtue Ethics"
+  },
+  {
+    "id": 37,
+    "question": "Promoting fairness and equality in decisions and treatment reflects:",
+    "choices": ["Justice", "Fair Treatment", "Business Ethics", "Transparency"],
+    "answer": "Justice",
+    "explanation": "Justice is the principle for fairness and equality in ethics.",
+    "topic": "Ethical Principles—Justice"
+  }
+]
