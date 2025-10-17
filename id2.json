@@ -1,0 +1,107 @@
+[
+  {
+    "id": 1,
+    "term": "ACM Code of Ethics",
+    "definition": "A professional code that emphasizes contributing to society and human well-being, avoiding harm, and being honest and trustworthy in computing work",
+    "answer": "ACM Code of Ethics",
+    "topic": "Codes—ACM Ethics"
+  },
+  {
+    "id": 2,
+    "term": "Conflict of interest",
+    "definition": "When personal interests improperly influence professional judgment",
+    "answer": "Personal interests improperly influence professional judgment",
+    "topic": "Conflicts—Definition"
+  },
+  {
+    "id": 3,
+    "term": "Bribery",
+    "definition": "Accepting cash or favors to influence a professional decision",
+    "answer": "Bribery",
+    "topic": "Misconduct—Bribery"
+  },
+  {
+    "id": 4,
+    "term": "Trade secret",
+    "definition": "Information that derives independent economic value from not being generally known and is subject to reasonable secrecy measures",
+    "answer": "Trade secret",
+    "topic": "IP—Trade Secrets"
+  },
+  {
+    "id": 5,
+    "term": "NDA",
+    "definition": "A contract clause that obligates an employee or vendor to keep proprietary information confidential",
+    "answer": "NDA",
+    "topic": "Confidentiality—NDA"
+  },
+  {
+    "id": 6,
+    "term": "Whistleblowing",
+    "definition": "Reporting organizational wrongdoing to authorities or oversight bodies after internal channels fail",
+    "answer": "Whistleblowing",
+    "topic": "Reporting—Whistleblowing"
+  },
+  {
+    "id": 7,
+    "term": "Software piracy",
+    "definition": "Unauthorized copying or sharing of licensed software without permission",
+    "answer": "Software piracy",
+    "topic": "IP—Piracy"
+  },
+  {
+    "id": 8,
+    "term": "Acceptable Use Policy (AUP)",
+    "definition": "A policy that defines permissible system and network usage for IT users",
+    "answer": "Define permissible system and network usage",
+    "topic": "Policies—AUP"
+  },
+  {
+    "id": 9,
+    "term": "Least privilege",
+    "definition": "A principle of granting users only the access necessary to perform their job",
+    "answer": "Least privilege",
+    "topic": "Access—Least Privilege"
+  },
+  {
+    "id": 10,
+    "term": "Kickback",
+    "definition": "Favoring a vendor in exchange for personal benefit during procurement",
+    "answer": "Kickback",
+    "topic": "Procurement—Integrity"
+  },
+  {
+    "id": 11,
+    "term": "Privacy by design",
+    "definition": "Integrating privacy protections into systems from the outset",
+    "answer": "Privacy by design",
+    "topic": "Privacy—By Design"
+  },
+  {
+    "id": 12,
+    "term": "Data minimization",
+    "definition": "Collecting only data strictly necessary for a stated purpose and no more",
+    "answer": "Data minimization",
+    "topic": "Privacy—Minimization"
+  },
+  {
+    "id": 13,
+    "term": "Informed consent",
+    "definition": "Presenting clear notices and obtaining agreement before collecting personal data",
+    "answer": "Informed consent",
+    "topic": "Privacy—Consent"
+  },
+  {
+    "id": 14,
+    "term": "Cyberloafing",
+    "definition": "Excessive non-work web use during work hours using corporate systems",
+    "answer": "Cyberloafing",
+    "topic": "Usage—Cyberloafing"
+  },
+  {
+    "id": 15,
+    "term": "Plagiarism",
+    "definition": "Copying a colleague's code into a deliverable without attribution",
+    "answer": "Plagiarism",
+    "topic": "Integrity—Plagiarism"
+  }
+]

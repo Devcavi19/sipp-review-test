@@ -1,0 +1,191 @@
+[
+  {
+    "id": 1,
+    "term": "Cybersecurity",
+    "definition": "The practice of protecting systems, networks, and data from digital attacks while ensuring confidentiality, integrity, and availability",
+    "answer": "Cybersecurity",
+    "topic": "Definitions—Cybersecurity"
+  },
+  {
+    "id": 2,
+    "term": "Cyberattack",
+    "definition": "A deliberate attempt to breach an information system to steal, alter, or destroy data",
+    "answer": "Cyberattack",
+    "topic": "Definitions—Cyberattack"
+  },
+  {
+    "id": 3,
+    "term": "Confidentiality",
+    "definition": "A concept of the CIA triad that ensures information is accessible only to authorized individuals",
+    "answer": "Confidentiality",
+    "topic": "Principles—CIA Triad"
+  },
+  {
+    "id": 4,
+    "term": "Man-in-the-Middle",
+    "definition": "An attack that secretly intercepts and relays communication between two parties",
+    "answer": "Man-in-the-Middle",
+    "topic": "Network attacks—MitM"
+  },
+  {
+    "id": 5,
+    "term": "Worm",
+    "definition": "Malware that self-replicates across networks without user action",
+    "answer": "Worm",
+    "topic": "Malware—Worms"
+  },
+  {
+    "id": 6,
+    "term": "Spear phishing",
+    "definition": "A targeted phishing campaign directed at a specific person or organization",
+    "answer": "Spear phishing",
+    "topic": "Social engineering—Phishing"
+  },
+  {
+    "id": 7,
+    "term": "DDoS",
+    "definition": "A coordinated attack that floods a target from many compromised systems",
+    "answer": "DDoS",
+    "topic": "Network attacks—DDoS"
+  },
+  {
+    "id": 8,
+    "term": "SQL injection",
+    "definition": "A web attack that injects malicious SQL into inputs to manipulate database queries",
+    "answer": "SQL injection",
+    "topic": "Web attacks—SQLi"
+  },
+  {
+    "id": 9,
+    "term": "Firewall",
+    "definition": "A control that monitors and controls network traffic based on security rules",
+    "answer": "Firewall",
+    "topic": "Controls—Firewall"
+  },
+  {
+    "id": 10,
+    "term": "IPS",
+    "definition": "A security function that actively blocks detected malicious activity in real time",
+    "answer": "IPS",
+    "topic": "Controls—IPS"
+  },
+  {
+    "id": 11,
+    "term": "Incident Response Plan",
+    "definition": "A documented, structured approach to contain, eradicate, and recover from security incidents",
+    "answer": "Incident Response Plan",
+    "topic": "Case—Incident response"
+  },
+  {
+    "id": 12,
+    "term": "Zero-trust security model",
+    "definition": "A model that assumes no user or device is trustworthy by default and requires continuous verification",
+    "answer": "Zero‑trust security model",
+    "topic": "Models—Zero trust"
+  },
+  {
+    "id": 13,
+    "term": "Non-repudiation",
+    "definition": "A term that ensures a sender cannot deny having sent a message or transaction",
+    "answer": "Non-repudiation",
+    "topic": "Principles—Assurance"
+  },
+  {
+    "id": 14,
+    "term": "CSRF",
+    "definition": "An attack that tricks users into performing unwanted actions on a site where they are authenticated",
+    "answer": "CSRF",
+    "topic": "Web attacks—CSRF"
+  },
+  {
+    "id": 15,
+    "term": "Ransomware",
+    "definition": "Malware that encrypts a victim's data and demands payment to restore access",
+    "answer": "Ransomware",
+    "topic": "Malware—Ransomware"
+  },
+  {
+    "id": 16,
+    "term": "Botnet",
+    "definition": "A network of infected computers remotely controlled to perform coordinated attacks",
+    "answer": "Botnet",
+    "topic": "Threats—Botnets"
+  },
+  {
+    "id": 17,
+    "term": "Backdoor",
+    "definition": "A hidden method for bypassing normal authentication to gain access",
+    "answer": "Backdoor",
+    "topic": "Malware—Backdoor"
+  },
+  {
+    "id": 18,
+    "term": "AES",
+    "definition": "An Advanced Encryption Standard used widely for data confidentiality",
+    "answer": "AES",
+    "topic": "Cryptography—AES"
+  },
+  {
+    "id": 19,
+    "term": "Keylogger",
+    "definition": "A tool that records keystrokes to capture sensitive information like passwords",
+    "answer": "Keylogger",
+    "topic": "Case—Credential theft"
+  },
+  {
+    "id": 20,
+    "term": "ISO/IEC 27001",
+    "definition": "An international standard that specifies requirements for an Information Security Management System",
+    "answer": "ISO/IEC 27001",
+    "topic": "Standards—ISO/IEC 27001"
+  },
+  {
+    "id": 21,
+    "term": "Patch management",
+    "definition": "A practice that regularly updates software to fix vulnerabilities and improve security",
+    "answer": "Patch management",
+    "topic": "Operations—Patch management"
+  },
+  {
+    "id": 22,
+    "term": "Authentication",
+    "definition": "A process that verifies a user's identity before granting system access",
+    "answer": "Authentication",
+    "topic": "Access—Authentication"
+  },
+  {
+    "id": 23,
+    "term": "Cyberespionage",
+    "definition": "Unauthorized access to confidential information for political or economic advantage, typically by governments or organizations",
+    "answer": "Cyberespionage",
+    "topic": "Threats—Cyberespionage"
+  },
+  {
+    "id": 24,
+    "term": "Vishing",
+    "definition": "Using voice calls to deceive users into giving sensitive information",
+    "answer": "Vishing",
+    "topic": "Case—Vishing"
+  },
+  {
+    "id": 25,
+    "term": "VPN",
+    "definition": "A tool that creates a secure, encrypted tunnel over the internet between a device and a network",
+    "answer": "VPN",
+    "topic": "Controls—VPN"
+  },
+  {
+    "id": 26,
+    "term": "PKI",
+    "definition": "A framework that manages digital certificates and encryption keys for secure communication",
+    "answer": "PKI",
+    "topic": "Cryptography—PKI"
+  },
+  {
+    "id": 27,
+    "term": "Smishing",
+    "definition": "Delivering phishing content via SMS/text messages to harvest credentials",
+    "answer": "Smishing",
+    "topic": "Case—Smishing"
+  }
+]

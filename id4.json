@@ -1,0 +1,198 @@
+[
+  {
+    "id": 1,
+    "term": "Privacy",
+    "definition": "The right of individuals to control their personal information and to be free from unauthorized access, collection, or surveillance",
+    "answer": "Privacy",
+    "topic": "Definitions—Privacy"
+  },
+  {
+    "id": 2,
+    "term": "Data Protection",
+    "definition": "The legal and technical process of safeguarding personal data against loss, alteration, or unauthorized access",
+    "answer": "Data Protection",
+    "topic": "Definitions—Data Protection"
+  },
+  {
+    "id": 3,
+    "term": "Data Breach",
+    "definition": "An incident where sensitive or protected data is accessed, stolen, or disclosed without authorization",
+    "answer": "Data Breach",
+    "topic": "Threats—Data Breach"
+  },
+  {
+    "id": 4,
+    "term": "Identity Theft",
+    "definition": "The crime of using another person's personal information to commit fraud or other crimes",
+    "answer": "Identity Theft",
+    "topic": "Threats—Identity Theft"
+  },
+  {
+    "id": 5,
+    "term": "Data Privacy Act",
+    "definition": "A law in the Philippines designed to protect individual personal information in information and communications systems",
+    "answer": "Data Privacy Act",
+    "topic": "Laws—Data Privacy Act"
+  },
+  {
+    "id": 6,
+    "term": "National Privacy Commission",
+    "definition": "The independent body mandated to administer and enforce the Data Privacy Act in the Philippines",
+    "answer": "National Privacy Commission",
+    "topic": "Institutions—National Privacy Commission"
+  },
+  {
+    "id": 7,
+    "term": "OECD Privacy Guidelines",
+    "definition": "An international framework that provides guidelines for protecting personal data and privacy in cross-border data flows",
+    "answer": "OECD Privacy Guidelines",
+    "topic": "Frameworks—OECD Privacy Guidelines"
+  },
+  {
+    "id": 8,
+    "term": "Right to be Forgotten",
+    "definition": "The right of individuals to have personal data removed from internet search results or databases under certain circumstances",
+    "answer": "Right to be Forgotten",
+    "topic": "Rights—Right to be Forgotten"
+  },
+  {
+    "id": 9,
+    "term": "Anonymity",
+    "definition": "The ability to use or access online services without revealing one's identity",
+    "answer": "Anonymity",
+    "topic": "Definitions—Anonymity"
+  },
+  {
+    "id": 10,
+    "term": "Anonymization",
+    "definition": "The process of removing personally identifiable information from datasets to protect individual privacy",
+    "answer": "Anonymization",
+    "topic": "Techniques—Anonymization"
+  },
+  {
+    "id": 11,
+    "term": "Cybercrime Prevention Act",
+    "definition": "A law in the Philippines that penalizes cybercrimes such as data interference, identity theft, and online libel",
+    "answer": "Cybercrime Prevention Act",
+    "topic": "Laws—Cybercrime Prevention Act"
+  },
+  {
+    "id": 12,
+    "term": "Freedom of Expression",
+    "definition": "The right of individuals to express opinions, ideas, or beliefs without fear of censorship or punishment",
+    "answer": "Freedom of Expression",
+    "topic": "Rights—Freedom of Expression"
+  },
+  {
+    "id": 13,
+    "term": "Censorship",
+    "definition": "The suppression or control of speech, public communication, or information that may be considered objectionable or harmful",
+    "answer": "Censorship",
+    "topic": "Threats—Censorship"
+  },
+  {
+    "id": 14,
+    "term": "Prior Restraint",
+    "definition": "Government action that prevents speech or expression before it occurs, violating freedom of expression",
+    "answer": "Prior Restraint",
+    "topic": "Threats—Prior Restraint"
+  },
+  {
+    "id": 15,
+    "term": "Red-Tagging",
+    "definition": "The practice of labeling individuals or groups as communists, terrorists, or rebels without evidence, often to silence criticism",
+    "answer": "Red-Tagging",
+    "topic": "Threats—Red-Tagging"
+  },
+  {
+    "id": 16,
+    "term": "Freedom of Information",
+    "definition": "A right that allows citizens to request access to official documents and data from government agencies",
+    "answer": "Freedom of Information",
+    "topic": "Rights—Freedom of Information"
+  },
+  {
+    "id": 17,
+    "term": "Digital Footprint",
+    "definition": "The record of all online activities and data a person leaves behind while using the internet",
+    "answer": "Digital Footprint",
+    "topic": "Definitions—Digital Footprint"
+  },
+  {
+    "id": 18,
+    "term": "Surveillance",
+    "definition": "The use of technology to monitor communications, including phone tapping and email scanning",
+    "answer": "Surveillance",
+    "topic": "Threats—Surveillance"
+  },
+  {
+    "id": 19,
+    "term": "Mass Surveillance",
+    "definition": "The widespread monitoring of large groups or entire populations, often raising privacy and human rights concerns",
+    "answer": "Mass Surveillance",
+    "topic": "Threats—Mass Surveillance"
+  },
+  {
+    "id": 20,
+    "term": "Intellectual Property Rights",
+    "definition": "Legal rights protecting creations of the mind, such as software and digital media, from unauthorized use",
+    "answer": "Intellectual Property Rights",
+    "topic": "Rights—Intellectual Property"
+  },
+  {
+    "id": 21,
+    "term": "Net Neutrality",
+    "definition": "The principle that internet service providers must treat all online data equally without discrimination or preference",
+    "answer": "Net Neutrality",
+    "topic": "Principles—Net Neutrality"
+  },
+  {
+    "id": 22,
+    "term": "Social Media Ethics",
+    "definition": "The responsible and respectful use of social platforms, emphasizing truthfulness, respect, and privacy protection",
+    "answer": "Social Media Ethics",
+    "topic": "Principles—Social Media Ethics"
+  },
+  {
+    "id": 23,
+    "term": "Content Moderation",
+    "definition": "The process of monitoring and managing online content to enforce community guidelines and prevent harm",
+    "answer": "Content Moderation",
+    "topic": "Practices—Content Moderation"
+  },
+  {
+    "id": 24,
+    "term": "Algorithmic Bias",
+    "definition": "Systematic errors in automated decision-making systems that result in unfair outcomes against certain groups",
+    "answer": "Algorithmic Bias",
+    "topic": "Threats—Algorithmic Bias"
+  },
+  {
+    "id": 25,
+    "term": "Freedom of Assembly",
+    "definition": "The right of people to gather peacefully for lawful and expressive purposes",
+    "answer": "Freedom of Assembly",
+    "topic": "Rights—Freedom of Assembly"
+  },
+  {
+    "id": 26,
+    "term": "Cyberbullying",
+    "definition": "The use of technology or digital platforms to harass, intimidate, or harm another person",
+    "answer": "Cyberbullying",
+    "topic": "Threats—Cyberbullying"
+  },
+  {
+    "id": 27,
+    "term": "Cyberstalking",
+    "definition": "The repeated use of digital means to harass or monitor another individual",
+    "answer": "Cyberstalking",
+    "topic": "Threats—Cyberstalking"
+  },
+  {
+    "id": 28,
+    "term": "Privacy Impact Assessment",
+    "definition": "A tool used to identify and minimize privacy risks in new projects or technologies",
+    "answer": "Privacy Impact Assessment",
+    "topic": "Practices—Privacy Impact Assessment"
+  }
+]

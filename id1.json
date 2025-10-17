@@ -1,0 +1,156 @@
+[
+  {
+    "id": 1,
+    "term": "Ethics",
+    "definition": "The branch of philosophy that provides a framework for judging right and wrong based on principles and values",
+    "answer": "Ethics",
+    "topic": "Definitions—Ethics"
+  },
+  {
+    "id": 2,
+    "term": "Morals",
+    "definition": "Personal principles that guide an individual's decisions about right and wrong",
+    "answer": "Morals",
+    "topic": "Definitions—Morals"
+  },
+  {
+    "id": 3,
+    "term": "Virtue",
+    "definition": "A habit that inclines people to do what is acceptable, such as fairness, generosity, and loyalty",
+    "answer": "Virtue",
+    "topic": "Definitions—Virtue"
+  },
+  {
+    "id": 4,
+    "term": "Vice",
+    "definition": "A habit of unacceptable behavior, such as vanity, greed, envy, or anger",
+    "answer": "Vice",
+    "topic": "Definitions—Vice"
+  },
+  {
+    "id": 5,
+    "term": "Value system",
+    "definition": "The complex scheme of moral values by which people live, distinguishing right from wrong",
+    "answer": "Value system",
+    "topic": "Definitions—Value System"
+  },
+  {
+    "id": 6,
+    "term": "Business Ethics",
+    "definition": "Application of ethical principles and moral values to the behavior and decision-making of individuals and organizations in the business context",
+    "answer": "Business Ethics",
+    "topic": "Definitions—Business Ethics"
+  },
+  {
+    "id": 7,
+    "term": "Integrity and Honesty",
+    "definition": "Being truthful in all forms of business dealings, including advertising, financial reporting, and communications",
+    "answer": "Integrity and Honesty",
+    "topic": "Definitions—Integrity"
+  },
+  {
+    "id": 8,
+    "term": "Fair Treatment",
+    "definition": "Treating all stakeholders fairly and equitably, ensuring non-discrimination and equal opportunities",
+    "answer": "Fair Treatment",
+    "topic": "Definitions—Fair Treatment"
+  },
+  {
+    "id": 9,
+    "term": "Transparency",
+    "definition": "Openness in company operations, particularly in financial reporting that builds trust among stakeholders and prevents fraud",
+    "answer": "Transparency",
+    "topic": "Definitions—Transparency"
+  },
+  {
+    "id": 10,
+    "term": "Social Responsibility",
+    "definition": "Considering the impact of business activities on society and acting for the welfare of the community",
+    "answer": "Social Responsibility",
+    "topic": "Definitions—Social Responsibility"
+  },
+  {
+    "id": 11,
+    "term": "Environmental Responsibility",
+    "definition": "The dedication to minimizing negative environmental impact through sustainable practices such as resource conservation and waste reduction",
+    "answer": "Environmental Responsibility",
+    "topic": "Definitions—Environmental Responsibility"
+  },
+  {
+    "id": 12,
+    "term": "Consumer Protection",
+    "definition": "The ethical obligation of businesses to ensure customer safety and well-being",
+    "answer": "Consumer Protection",
+    "topic": "Definitions—Consumer Protection"
+  },
+  {
+    "id": 13,
+    "term": "Employee Rights",
+    "definition": "Ensuring fair wages, safety, equal opportunities, and work-life balance for workers",
+    "answer": "Employee Rights",
+    "topic": "Definitions—Employee Rights"
+  },
+  {
+    "id": 14,
+    "term": "Corporate Governance",
+    "definition": "A system of rules and processes by which companies are directed and controlled to ensure integrity, accountability, and fairness",
+    "answer": "Corporate Governance",
+    "topic": "Definitions—Corporate Governance"
+  },
+  {
+    "id": 15,
+    "term": "Whistleblower Protection",
+    "definition": "Policies that safeguard employees who report unethical, illegal, or fraudulent practices within an organization from retaliation",
+    "answer": "Whistleblower Protection",
+    "topic": "Definitions—Whistleblower Protection"
+  },
+  {
+    "id": 16,
+    "term": "Ethical Leadership",
+    "definition": "A leadership approach emphasizing integrity, moral principles, and fairness that sets a positive example",
+    "answer": "Ethical Leadership",
+    "topic": "Definitions—Ethical Leadership"
+  },
+  {
+    "id": 17,
+    "term": "CSR (Corporate Social Responsibility)",
+    "definition": "Voluntarily taking responsibility for effects on society and the environment and integrating social and environmental concerns into business operations",
+    "answer": "CSR (Corporate Social Responsibility)",
+    "topic": "Definitions—CSR"
+  },
+  {
+    "id": 18,
+    "term": "Sustainability",
+    "definition": "Operating in a way that preserves natural resources and ecosystems for future generations",
+    "answer": "Sustainability",
+    "topic": "Definitions—Sustainability"
+  },
+  {
+    "id": 19,
+    "term": "Code of Ethics",
+    "definition": "A written set of principles and guidelines that define the expected ethical behavior and values of an organization or profession",
+    "answer": "Code of Ethics",
+    "topic": "Definitions—Code of Ethics"
+  },
+  {
+    "id": 20,
+    "term": "Utilitarianism",
+    "definition": "An ethical principle that focuses on outcomes that maximize happiness for the greatest number",
+    "answer": "Utilitarianism",
+    "topic": "Ethical Principles—Utilitarianism"
+  },
+  {
+    "id": 21,
+    "term": "Deontology",
+    "definition": "Emphasis on following moral rules regardless of consequences",
+    "answer": "Deontology",
+    "topic": "Ethical Principles—Deontology"
+  },
+  {
+    "id": 22,
+    "term": "Virtue Ethics",
+    "definition": "An ethical theory that focuses on moral character and virtues that guide good actions",
+    "answer": "Virtue Ethics",
+    "topic": "Ethical Principles—Virtue Ethics"
+  }
+]
