@@ -41,6 +41,7 @@
 </head>
 <body>
 <header>
+  <header>
   <h1>CS4116 SIPP Quiz Reviewer</h1>
   <select id="moduleSel">
     <option value="">Select Module...</option>
@@ -48,6 +49,10 @@
     <option value="mcq2.json">Module 2 - Professional Codes & IT Ethics</option>
     <option value="mcq3.json">Module 3 - Cybersecurity</option>
     <option value="mcq4.json">Module 4 - Privacy & Freedom</option>
+  </select>
+  <select id="quizMode">
+    <option value="mcq">MCQ Mode</option>
+    <option value="identification">Identification Mode</option>
   </select>
   <select id="mode">
     <option value="all">All Questions</option>
@@ -109,12 +114,14 @@
 <script>
 /* ============ Quiz State ============ */
 const qs = (s) => document.querySelector(s);
-const moduleSel = qs('#moduleSel'), modeSel = qs('#mode'), lenSel = qs('#length'), startBtn = qs('#startBtn');
+const moduleSel = qs('#moduleSel'), quizMode = qs('#quizMode'), modeSel = qs('#mode'), lenSel = qs('#length'), startBtn = qs('#startBtn');
 const qType = qs('#qType'), qTopic = qs('#qTopic'), qIdx = qs('#qIdx'), qText = qs('#qText');
 const choicesEl = qs('#choices'), submitBtn = qs('#submitBtn'), skipBtn = qs('#skipBtn'), nextBtn = qs('#nextBtn');
 const feedback = qs('#feedback'), scoreEl = qs('#score'), progEl = qs('#prog'), streakEl = qs('#streak'), accEl = qs('#acc'), weakList = qs('#weakList');
 
 let BANK = [];
+let ID_BANK = [];
+let currentQuizMode = 'mcq';
 let session = [], ptr = 0, score = 0, streak = 0, answered = false;
 let wrongByTopic = new Map(), correctByTopic = new Map(), pendingFollowUp = null;
 let currentModule = '';
@@ -123,10 +130,12 @@ let currentModule = '';
 async function loadModule(filename) {
   try {
     qText.innerHTML = '<span class="loading">Loading module...</span>';
-    const response = await fetch(filename);
-    if (!response.ok) throw new Error(`Failed to load ${filename}`);
     
-    const jsonData = await response.json();
+    // Load MCQ file
+    const mcqResponse = await fetch(filename);
+    if (!mcqResponse.ok) throw new Error(`Failed to load ${filename}`);
+    
+    const jsonData = await mcqResponse.json();
     if (!Array.isArray(jsonData)) throw new Error('Invalid JSON format');
     
     // Convert to internal format
@@ -151,9 +160,25 @@ async function loadModule(filename) {
       return converted;
     });
     
+    // Load corresponding identification file
+    const idFilename = filename.replace('mcq', 'id');
+    try {
+      const idResponse = await fetch(idFilename);
+      if (idResponse.ok) {
+        ID_BANK = await idResponse.json();
+        console.log(`✅ Loaded ${ID_BANK.length} identification terms from ${idFilename}`);
+      } else {
+        ID_BANK = [];
+        console.warn(`⚠️ Identification file ${idFilename} not found`);
+      }
+    } catch (e) {
+      ID_BANK = [];
+      console.warn(`⚠️ Could not load identification file: ${e.message}`);
+    }
+    
     currentModule = filename;
     startBtn.disabled = false;
-    qText.textContent = `✅ Loaded ${BANK.length} questions. Click "Start Quiz" to begin!`;
+    qText.textContent = `✅ Loaded ${BANK.length} MCQs${ID_BANK.length > 0 ? ` and ${ID_BANK.length} identification terms` : ''}. Click "Start Quiz" to begin!`;
     console.log(`✅ Loaded ${BANK.length} questions from ${filename}`);
     
     // Reset stats
@@ -165,6 +190,7 @@ async function loadModule(filename) {
     console.error('Error loading module:', error);
     qText.innerHTML = `<div class="error">❌ Error loading module: ${error.message}<br>Please check that the JSON file exists and is valid.</div>`;
     BANK = [];
+    ID_BANK = [];
     startBtn.disabled = true;
   }
 }
@@ -175,8 +201,18 @@ moduleSel.addEventListener('change', (e) => {
     loadModule(filename);
   } else {
     BANK = [];
+    ID_BANK = [];
     startBtn.disabled = true;
     qText.textContent = 'Select a module above to begin.';
+  }
+});
+
+quizMode.addEventListener('change', (e) => {
+  currentQuizMode = e.target.value;
+  if (currentQuizMode === 'identification') {
+    modeSel.style.display = 'none';
+  } else {
+    modeSel.style.display = '';
   }
 });
 
@@ -190,27 +226,38 @@ function shuffle(a) {
 }
 
 function makeSession() {
-  if (BANK.length === 0) {
-    alert('Please select a module first!');
-    return;
+  if (currentQuizMode === 'identification') {
+    if (ID_BANK.length === 0) {
+      alert('No identification questions available for this module!');
+      return;
+    }
+    const pool = shuffle([...ID_BANK]);
+    const n = parseInt(lenSel.value, 10);
+    session = pool.slice(0, Math.min(n, pool.length));
+  } else {
+    if (BANK.length === 0) {
+      alert('Please select a module first!');
+      return;
+    }
+    
+    const mode = modeSel.value;
+    let pool = BANK.filter(q => {
+      if (mode === 'all') return true;
+      if (mode === 'mc') return q.type === 'MC';
+      if (mode === 'tf') return q.type === 'TF';
+      return true;
+    });
+    
+    if (pool.length === 0) {
+      alert('No questions match the selected filter!');
+      return;
+    }
+    
+    pool = shuffle([...pool]);
+    const n = parseInt(lenSel.value, 10);
+    session = pool.slice(0, Math.min(n, pool.length));
   }
   
-  const mode = modeSel.value;
-  let pool = BANK.filter(q => {
-    if (mode === 'all') return true;
-    if (mode === 'mc') return q.type === 'MC';
-    if (mode === 'tf') return q.type === 'TF';
-    return true;
-  });
-  
-  if (pool.length === 0) {
-    alert('No questions match the selected filter!');
-    return;
-  }
-  
-  pool = shuffle([...pool]);
-  const n = parseInt(lenSel.value, 10);
-  session = pool.slice(0, Math.min(n, pool.length));
   ptr = 0; score = 0; streak = 0; pendingFollowUp = null;
   updateHud();
 }
@@ -225,12 +272,14 @@ function updateHud() {
 }
 
 function renderWeak() {
-  if (BANK.length === 0) {
+  const bankToUse = currentQuizMode === 'identification' ? ID_BANK : BANK;
+  
+  if (bankToUse.length === 0) {
     weakList.innerHTML = '<li>No data yet. Load a module first!</li>';
     return;
   }
   
-  const topics = new Set([...BANK.map(q => q.topic)]);
+  const topics = new Set([...bankToUse.map(q => q.topic)]);
   const rows = [];
   topics.forEach(t => {
     const wrong = wrongByTopic.get(t) || 0;
@@ -271,53 +320,99 @@ function renderQuestion() {
     return;
   }
   
-  qType.textContent = q.type;
-  qTopic.textContent = q.topic;
-  qIdx.textContent = `Q ${ptr + 1}/${session.length}`;
-  qText.textContent = q.text;
-
-  choicesEl.innerHTML = '';
-  
-  if (q.type === 'TF') {
-    const opts = ['True', 'False'];
-    opts.forEach((label) => {
-      const div = document.createElement('label');
-      div.className = 'choice';
-      div.innerHTML = `<input type="radio" name="ans" value="${label === 'True'}" /> <span>${label}</span>`;
-      div.addEventListener('click', () => submitBtn.disabled = false);
-      choicesEl.appendChild(div);
-    });
-  } else if (q.type === 'MC') {
-    q.choices.forEach((c, i) => {
-      const div = document.createElement('label');
-      div.className = 'choice';
-      div.innerHTML = `<input type="radio" name="ans" value="${i}" /> <span>${String.fromCharCode(65 + i)}. ${c}</span>`;
-      div.addEventListener('click', () => submitBtn.disabled = false);
-      choicesEl.appendChild(div);
-    });
-  } else if (q.type === 'SA') {
+  if (currentQuizMode === 'identification') {
+    // Render identification question
+    qType.textContent = 'ID';
+    qTopic.textContent = q.topic;
+    qIdx.textContent = `Q ${ptr + 1}/${session.length}`;
+    qText.innerHTML = `<strong>Define:</strong> ${q.definition}`;
+    
+    choicesEl.innerHTML = '';
     const wrapper = document.createElement('div');
     wrapper.style.display = 'flex';
     wrapper.style.flexDirection = 'column';
-    const ta = document.createElement('textarea');
-    ta.id = 'sa-input';
-    ta.rows = 3;
-    ta.style.padding = '10px';
-    ta.style.borderRadius = '8px';
-    ta.style.border = '1px solid #2a3b57';
-    ta.style.background = 'var(--card)';
-    ta.style.color = 'var(--text)';
-    ta.style.fontFamily = 'inherit';
-    ta.placeholder = 'Type your one-sentence answer here...';
-    ta.addEventListener('input', () => { submitBtn.disabled = ta.value.trim().length === 0; });
-    wrapper.appendChild(ta);
+    const input = document.createElement('input');
+    input.type = 'text';
+    input.id = 'id-input';
+    input.placeholder = 'Type the term here...';
+    input.style.padding = '12px';
+    input.style.borderRadius = '8px';
+    input.style.border = '1px solid #2a3b57';
+    input.style.background = 'var(--card)';
+    input.style.color = 'var(--text)';
+    input.style.fontFamily = 'inherit';
+    input.style.fontSize = '16px';
+    input.addEventListener('input', () => { 
+      submitBtn.disabled = input.value.trim().length === 0; 
+    });
+    input.addEventListener('keypress', (e) => {
+      if (e.key === 'Enter' && !submitBtn.disabled) {
+        submitBtn.click();
+      }
+    });
+    wrapper.appendChild(input);
     choicesEl.appendChild(wrapper);
+    
+    // Focus the input
+    setTimeout(() => input.focus(), 100);
+    
+  } else {
+    // Render MCQ question (existing code)
+    qType.textContent = q.type;
+    qTopic.textContent = q.topic;
+    qIdx.textContent = `Q ${ptr + 1}/${session.length}`;
+    qText.textContent = q.text;
+
+    choicesEl.innerHTML = '';
+    
+    if (q.type === 'TF') {
+      const opts = ['True', 'False'];
+      opts.forEach((label) => {
+        const div = document.createElement('label');
+        div.className = 'choice';
+        div.innerHTML = `<input type="radio" name="ans" value="${label === 'True'}" /> <span>${label}</span>`;
+        div.addEventListener('click', () => submitBtn.disabled = false);
+        choicesEl.appendChild(div);
+      });
+    } else if (q.type === 'MC') {
+      q.choices.forEach((c, i) => {
+        const div = document.createElement('label');
+        div.className = 'choice';
+        div.innerHTML = `<input type="radio" name="ans" value="${i}" /> <span>${String.fromCharCode(65 + i)}. ${c}</span>`;
+        div.addEventListener('click', () => submitBtn.disabled = false);
+        choicesEl.appendChild(div);
+      });
+    } else if (q.type === 'SA') {
+      const wrapper = document.createElement('div');
+      wrapper.style.display = 'flex';
+      wrapper.style.flexDirection = 'column';
+      const ta = document.createElement('textarea');
+      ta.id = 'sa-input';
+      ta.rows = 3;
+      ta.style.padding = '10px';
+      ta.style.borderRadius = '8px';
+      ta.style.border = '1px solid #2a3b57';
+      ta.style.background = 'var(--card)';
+      ta.style.color = 'var(--text)';
+      ta.style.fontFamily = 'inherit';
+      ta.placeholder = 'Type your one-sentence answer here...';
+      ta.addEventListener('input', () => { submitBtn.disabled = ta.value.trim().length === 0; });
+      wrapper.appendChild(ta);
+      choicesEl.appendChild(wrapper);
+    }
   }
 }
 
 function getSelected() {
   const q = session[ptr];
   if (!q) return null;
+  
+  if (currentQuizMode === 'identification') {
+    const input = document.querySelector('#id-input');
+    if (!input) return null;
+    return input.value.trim();
+  }
+  
   if (q.type === 'SA') {
     const ta = document.querySelector('#sa-input');
     if (!ta) return null;
@@ -329,7 +424,8 @@ function getSelected() {
 }
 
 function pickFollowUpTopic(topic) {
-  const candidates = BANK.filter(q => q.topic === topic);
+  const bankToUse = currentQuizMode === 'identification' ? ID_BANK : BANK;
+  const candidates = bankToUse.filter(q => q.topic === topic);
   const unseen = candidates.filter(q => !session.find(x => x.id === q.id));
   return shuffle(unseen)[0] || shuffle(candidates)[0] || null;
 }
@@ -337,6 +433,13 @@ function pickFollowUpTopic(topic) {
 function recordTopic(topic, ok) {
   const map = ok ? correctByTopic : wrongByTopic;
   map.set(topic, (map.get(topic) || 0) + 1);
+}
+
+function normalizeAnswer(answer) {
+  return answer.toLowerCase()
+    .replace(/[^\w\s]/g, '')
+    .replace(/\s+/g, ' ')
+    .trim();
 }
 
 /* ============ Event Handlers ============ */
@@ -351,14 +454,21 @@ submitBtn.addEventListener('click', () => {
   nextBtn.disabled = false;
 
   let correct = false;
-  if (q.type === 'TF') { 
-    correct = (String(q.answer) === sel); 
-  } else if (q.type === 'SA') {
-    const expected = (q.answerText || '').trim().toLowerCase();
-    const got = (sel || '').trim().toLowerCase();
-    correct = expected && (got === expected);
-  } else { 
-    correct = (q.answer === parseInt(sel, 10)); 
+  
+  if (currentQuizMode === 'identification') {
+    const userAnswer = normalizeAnswer(sel);
+    const correctAnswer = normalizeAnswer(q.answer);
+    correct = userAnswer === correctAnswer;
+  } else {
+    if (q.type === 'TF') { 
+      correct = (String(q.answer) === sel); 
+    } else if (q.type === 'SA') {
+      const expected = (q.answerText || '').trim().toLowerCase();
+      const got = (sel || '').trim().toLowerCase();
+      correct = expected && (got === expected);
+    } else { 
+      correct = (q.answer === parseInt(sel, 10)); 
+    }
   }
 
   if (correct) { 
@@ -377,10 +487,18 @@ submitBtn.addEventListener('click', () => {
   const color = correct ? 'correct' : 'incorrect';
   const tip = correct ? '' : `<div style="margin-top:8px; padding:8px; background:#3a2f1f; border-radius:6px; border-left:3px solid var(--warn);"><strong>💡 Tip:</strong> Review the core concept of <em>${q.topic}</em>. A follow-up question will appear next to reinforce this topic.</div>`;
   feedback.style.display = 'block';
-  const modelAns = q.type === 'SA' ? `<div style="margin-top:8px;"><strong>Model answer:</strong> ${q.answerText}</div>` : '';
-  feedback.innerHTML = `<div class="${color}" style="font-size:16px; margin-bottom:8px;">${icon} ${correct ? 'Correct!' : 'Incorrect'}</div>
-    ${modelAns}
-    <div style="margin-top:8px;"><strong>Explanation:</strong> ${q.explanation}</div>${tip}`;
+  
+  if (currentQuizMode === 'identification') {
+    const correctAnswerDisplay = `<div style="margin-top:8px;"><strong>Correct answer:</strong> ${q.answer}</div>`;
+    feedback.innerHTML = `<div class="${color}" style="font-size:16px; margin-bottom:8px;">${icon} ${correct ? 'Correct!' : 'Incorrect'}</div>
+      ${correctAnswerDisplay}
+      <div style="margin-top:8px;"><strong>Definition:</strong> ${q.definition}</div>${tip}`;
+  } else {
+    const modelAns = q.type === 'SA' ? `<div style="margin-top:8px;"><strong>Model answer:</strong> ${q.answerText}</div>` : '';
+    feedback.innerHTML = `<div class="${color}" style="font-size:16px; margin-bottom:8px;">${icon} ${correct ? 'Correct!' : 'Incorrect'}</div>
+      ${modelAns}
+      <div style="margin-top:8px;"><strong>Explanation:</strong> ${q.explanation}</div>${tip}`;
+  }
 });
 
 nextBtn.addEventListener('click', () => {
